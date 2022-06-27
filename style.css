@@ -97,9 +97,10 @@ body {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
-
 @media only screen and (min-width: 600px) {
-  
+  body{
+    background:var(--cream);
+  }
   .container {
     flex-direction: row;
     overflow: hidden;
@@ -108,7 +109,6 @@ body {
     position: relative;
     top: -10%;
     flex: 1;
-
     height: 100%;
     width: 200%;
   }
